@@ -10,5 +10,8 @@ import { ButtonComponent } from '../button/button.component';
 })
 export class HeaderComponent {
   title: string = "To Do App"
+  toggleAddTask() {
+    console.log('duidndud')
+  }
 
 }
