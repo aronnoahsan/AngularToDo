@@ -13,7 +13,6 @@ import { TaskService } from '../../services/task.service';
 })
 export class TasksComponent {
   constructor(private taskService: TaskService) {
-
   }
   tasks: Task[] = [];
   ngOnInit(): void {
